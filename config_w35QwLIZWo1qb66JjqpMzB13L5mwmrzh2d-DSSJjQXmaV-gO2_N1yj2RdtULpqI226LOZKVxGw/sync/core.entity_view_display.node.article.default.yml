@@ -9,6 +9,7 @@ dependencies:
     - field.field.node.article.field_file_upload
     - field.field.node.article.field_image
     - field.field.node.article.field_tags
+    - field.field.node.article.field_test
     - image.style.large
     - node.type.article
   module:
@@ -90,6 +91,16 @@ content:
     settings:
       link: true
     third_party_settings: {  }
+  field_test:
+    weight: 6
+    label: above
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    type: boolean
+    region: content
   links:
     weight: 3
     region: top

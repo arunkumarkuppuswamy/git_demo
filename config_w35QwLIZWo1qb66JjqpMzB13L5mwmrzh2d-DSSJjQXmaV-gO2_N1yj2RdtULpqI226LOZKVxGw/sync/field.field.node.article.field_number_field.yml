@@ -1,0 +1,23 @@
+uuid: 3d3c840b-9544-44a5-bfc2-8818f25bc6d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_number_field
+    - node.type.article
+id: node.article.field_number_field
+field_name: field_number_field
+entity_type: node
+bundle: article
+label: 'Number field'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

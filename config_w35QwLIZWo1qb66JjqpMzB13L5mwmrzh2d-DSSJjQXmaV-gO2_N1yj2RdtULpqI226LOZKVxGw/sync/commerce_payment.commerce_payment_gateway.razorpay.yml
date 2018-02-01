@@ -1,0 +1,19 @@
+uuid: f4fc7add-1ade-44a2-916a-a8ba2d9a1310
+langcode: en
+status: false
+dependencies:
+  module:
+    - commerce_razorpay
+id: razorpay
+label: Razorpay
+weight: null
+plugin: razorpay_redirect
+configuration:
+  display_label: 'Razorpay Redirect'
+  mode: test
+  payment_method_types:
+    - credit_card
+  key_id: rzp_test_9QyrrzikW1YlWD
+  key_secret: QBlokHwH7bCettuoSujtDpq6
+conditions: {  }
+conditionOperator: AND

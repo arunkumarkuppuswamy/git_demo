@@ -1,0 +1,9 @@
+uuid: 9cd4f675-c099-4785-8e2d-5a00a0005777
+langcode: en
+status: true
+dependencies: {  }
+label: 'Daily Reports'
+id: daily_reports
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }

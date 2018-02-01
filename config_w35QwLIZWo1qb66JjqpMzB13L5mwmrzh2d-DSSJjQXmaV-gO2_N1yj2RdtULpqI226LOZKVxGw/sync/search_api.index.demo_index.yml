@@ -1,0 +1,45 @@
+uuid: bdb8f3f6-c4b6-47c6-b7b4-6d71fa29584b
+langcode: en
+status: true
+dependencies:
+  config:
+    - search_api.server.demo_server
+  module:
+    - search_api
+    - node
+    - taxonomy
+    - user
+id: demo_index
+name: 'Demo index'
+description: ''
+read_only: false
+field_settings: {  }
+datasource_settings:
+  'entity:node':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:taxonomy_term':
+    bundles:
+      default: true
+      selected: {  }
+    languages:
+      default: true
+      selected: {  }
+  'entity:user':
+    languages:
+      default: true
+      selected: {  }
+processor_settings:
+  rendered_item: {  }
+  aggregated_field: {  }
+  add_url: {  }
+tracker_settings:
+  default: {  }
+options:
+  index_directly: true
+  cron_limit: 50
+server: demo_server

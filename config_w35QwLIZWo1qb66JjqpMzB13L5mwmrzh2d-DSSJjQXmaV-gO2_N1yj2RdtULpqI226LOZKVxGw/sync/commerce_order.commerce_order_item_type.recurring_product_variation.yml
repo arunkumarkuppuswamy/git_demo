@@ -1,0 +1,15 @@
+uuid: e1031b9b-86b1-4eb3-b4a8-2dd3109d6236
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_product
+      - commerce_recurring
+_core:
+  default_config_hash: 1SokdH_J4QywfCxnREkZLj0GMfTCBG9nmH8T_Zkr694
+label: 'Recurring (Product variation)'
+id: recurring_product_variation
+purchasableEntityType: commerce_product_variation
+orderType: recurring
+traits: {  }

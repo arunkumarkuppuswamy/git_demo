@@ -1,0 +1,10 @@
+uuid: be84a0d4-3ab8-4174-914a-8a0a116fcd95
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_recurring
+id: commerce_subscription.token
+label: Token
+targetEntityType: commerce_subscription
+cache: true

@@ -1,0 +1,10 @@
+uuid: b2422240-9daa-42bc-89cf-13334714ead2
+langcode: en
+status: true
+dependencies: {  }
+id: group_1
+label: 'Group Type'
+description: ''
+creator_membership: true
+creator_wizard: true
+creator_roles: {  }

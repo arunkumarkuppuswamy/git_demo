@@ -1,0 +1,22 @@
+uuid: a6d87512-c8d4-49cd-8f4f-06dd549390dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.study_report
+    - field.storage.commerce_product.body
+  module:
+    - text
+id: commerce_product.study_report.body
+field_name: body
+entity_type: commerce_product
+bundle: study_report
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+field_type: text_with_summary

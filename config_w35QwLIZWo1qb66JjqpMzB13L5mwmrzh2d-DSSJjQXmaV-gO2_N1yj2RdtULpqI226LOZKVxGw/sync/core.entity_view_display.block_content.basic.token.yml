@@ -1,0 +1,25 @@
+uuid: 19467ce3-c0fe-492c-9d5f-561e25bd8ae0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - core.entity_view_mode.block_content.token
+    - field.field.block_content.basic.body
+  module:
+    - text
+_core:
+  default_config_hash: orJpHUlAc_wiQLMUjIgEJXGeiqylGHMPcmNRjGtct-M
+id: block_content.basic.token
+targetEntityType: block_content
+bundle: basic
+mode: token
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

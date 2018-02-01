@@ -1,0 +1,9 @@
+uuid: e1e91a36-bedd-49eb-ac8b-a1548b09db22
+langcode: en
+status: true
+dependencies: {  }
+id: pro_report
+label: 'Pro Report'
+orderItemType: default
+generateTitle: false
+traits: {  }

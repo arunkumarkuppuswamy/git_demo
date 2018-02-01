@@ -1,0 +1,18 @@
+uuid: 3568dd58-7f07-4d7d-becb-849905b00631
+langcode: en
+status: true
+dependencies: {  }
+id: example
+label: Example
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: Manual
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

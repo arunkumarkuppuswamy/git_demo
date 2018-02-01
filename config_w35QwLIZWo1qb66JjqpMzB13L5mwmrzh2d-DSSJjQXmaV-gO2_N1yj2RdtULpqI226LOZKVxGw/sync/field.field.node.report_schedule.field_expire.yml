@@ -1,0 +1,24 @@
+uuid: 6732ac5d-fc01-4653-a4bf-ca0d910c866e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_expire
+    - node.type.report_schedule
+  module:
+    - datetime
+id: node.report_schedule.field_expire
+field_name: field_expire
+entity_type: node
+bundle: report_schedule
+label: Expire
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '+30 days'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

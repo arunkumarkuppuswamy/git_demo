@@ -1,0 +1,28 @@
+uuid: fa232418-1396-40d2-9c05-32901ca46ffd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_group_member
+    - group.content_type.group_1-group_membership
+    - node.type.report_schedule
+id: node.report_schedule.field_group_member
+field_name: field_group_member
+entity_type: node
+bundle: report_schedule
+label: 'Group Members'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:group_content'
+  handler_settings:
+    target_bundles:
+      group_1-group_membership: group_1-group_membership
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

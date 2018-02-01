@@ -1,0 +1,18 @@
+uuid: 53e65425-9282-4900-a469-532270cf1634
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.report_schedule
+  module:
+    - user
+id: node.report_schedule.teaser
+targetEntityType: node
+bundle: report_schedule
+mode: teaser
+content:
+  links:
+    weight: 100
+    region: content
+hidden: {  }

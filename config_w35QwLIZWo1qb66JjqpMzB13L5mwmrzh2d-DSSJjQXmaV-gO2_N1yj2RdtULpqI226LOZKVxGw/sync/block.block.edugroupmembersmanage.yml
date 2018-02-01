@@ -1,0 +1,30 @@
+uuid: dee46270-8d05-4477-a17f-7fec4be52821
+langcode: en
+status: true
+dependencies:
+  module:
+    - edu_subscription
+    - group
+  theme:
+    - bartik
+id: edugroupmembersmanage
+theme: bartik
+region: sidebar_first
+weight: -8
+provider: null
+plugin: edu_group_member_manage
+settings:
+  id: edu_group_member_manage
+  label: 'Edu Group Members Manage'
+  provider: edu_subscription
+  label_display: visible
+  context_mapping:
+    group: '@group.group_route_context:group'
+visibility:
+  group_type:
+    id: group_type
+    group_types:
+      group_1: group_1
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'

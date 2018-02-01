@@ -1,0 +1,18 @@
+uuid: 7701ffa5-3ac4-432c-8b1b-8f3178e4b936
+langcode: en
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: demo_server
+name: 'Demo server'
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  database_text: ''
+  min_chars: 3
+  partial_matches: true
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

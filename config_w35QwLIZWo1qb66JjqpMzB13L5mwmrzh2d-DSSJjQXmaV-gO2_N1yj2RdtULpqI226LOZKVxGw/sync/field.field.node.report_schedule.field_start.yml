@@ -1,0 +1,24 @@
+uuid: 5e907d52-28c7-4102-975e-b2665451dcb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_start
+    - node.type.report_schedule
+  module:
+    - datetime
+id: node.report_schedule.field_start
+field_name: field_start
+entity_type: node
+bundle: report_schedule
+label: Start
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

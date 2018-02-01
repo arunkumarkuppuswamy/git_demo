@@ -1,0 +1,13 @@
+uuid: 74a76b81-a6ad-4743-a422-5af7d8a2d6ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: custum_search
+label: 'Custum search'
+path: custom-search
+weight: 0
+plugin: node_search
+configuration:
+  rankings: {  }

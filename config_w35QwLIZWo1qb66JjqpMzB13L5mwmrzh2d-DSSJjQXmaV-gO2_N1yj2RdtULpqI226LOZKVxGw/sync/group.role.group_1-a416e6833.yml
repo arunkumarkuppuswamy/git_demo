@@ -1,0 +1,17 @@
+uuid: cab6999f-ae21-4c33-8c2a-3194c5af2841
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.group_1
+  enforced:
+    config:
+      - user.role.administrator
+id: group_1-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: group_1
+permissions_ui: false
+permissions: {  }

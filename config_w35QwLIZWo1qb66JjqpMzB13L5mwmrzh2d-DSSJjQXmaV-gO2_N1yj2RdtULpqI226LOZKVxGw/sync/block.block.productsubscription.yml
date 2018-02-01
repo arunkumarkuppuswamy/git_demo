@@ -1,0 +1,30 @@
+uuid: 215d1b7b-7fe8-447e-9230-b508608b69e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - edu_subscription
+    - group
+  theme:
+    - bartik
+id: productsubscription
+theme: bartik
+region: sidebar_first
+weight: -7
+provider: null
+plugin: product_subscription
+settings:
+  id: product_subscription
+  label: 'Product Subscription'
+  provider: edu_subscription
+  label_display: visible
+  context_mapping:
+    group: '@group.group_route_context:group'
+visibility:
+  group_type:
+    id: group_type
+    group_types:
+      group_1: group_1
+    negate: false
+    context_mapping:
+      group: '@group.group_route_context:group'

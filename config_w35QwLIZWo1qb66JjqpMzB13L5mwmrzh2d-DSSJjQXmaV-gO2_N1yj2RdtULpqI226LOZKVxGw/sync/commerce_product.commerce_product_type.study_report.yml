@@ -1,0 +1,10 @@
+uuid: 3472b7ac-4622-41ba-9e8b-fcbe1a147b8b
+langcode: en
+status: true
+dependencies: {  }
+id: study_report
+label: 'Study Report'
+description: 'Study reports is an email subscription for the teachers to audit their students.'
+variationType: default
+injectVariationFields: true
+traits: {  }

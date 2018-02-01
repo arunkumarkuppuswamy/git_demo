@@ -1,0 +1,10 @@
+uuid: f1dd22e3-eedf-4be1-884b-994b6f1e2ba6
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.demo_view
+label: 'Demo view'
+targetEntityType: node
+cache: true

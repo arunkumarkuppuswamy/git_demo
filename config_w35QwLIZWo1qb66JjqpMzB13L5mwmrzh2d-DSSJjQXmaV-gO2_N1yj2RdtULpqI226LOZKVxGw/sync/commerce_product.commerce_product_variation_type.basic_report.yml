@@ -1,0 +1,9 @@
+uuid: d19f99d6-b443-4aad-bdef-92168ce75c51
+langcode: en
+status: true
+dependencies: {  }
+id: basic_report
+label: 'Basic Report'
+orderItemType: default
+generateTitle: false
+traits: {  }

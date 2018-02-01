@@ -7,7 +7,6 @@ dependencies:
     - field.field.node.article.comment
     - field.field.node.article.field_file_upload
     - field.field.node.article.field_image
-    - field.field.node.article.field_price
     - field.field.node.article.field_tags
     - image.style.thumbnail
     - node.type.article
@@ -60,13 +59,6 @@ content:
       progress_indicator: throbber
       preview_image_style: thumbnail
     third_party_settings: {  }
-  field_price:
-    weight: 122
-    settings:
-      placeholder: ''
-    third_party_settings: {  }
-    type: number
-    region: content
   field_tags:
     type: entity_reference_autocomplete_tags
     weight: 3
